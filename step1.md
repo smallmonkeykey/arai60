@@ -1,5 +1,5 @@
 # 何も見ずにコード書く
-```
+```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -30,7 +30,7 @@ Given the head of a linked list, return the node where the cycle begins. If ther
 問題をしっかり読んでいきたい。
 
 # 答えを見て以下を書いた
-```
+```ruby
 def detectCycle(head)
   visited_nodes = Set.new
   node = head
@@ -44,7 +44,7 @@ end
 ```
 
 # フロイドの方法でも書いていく
-```
+```ruby
 def detectCycle(head)
   slow = head
   fast = head

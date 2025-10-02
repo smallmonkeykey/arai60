@@ -1,6 +1,6 @@
 # 整えて、1０分以内にエラーを出さずに3回続けて書く
 
-```
+```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
